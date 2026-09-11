@@ -1,0 +1,23 @@
+node_modules/
+.next/
+dist/
+
+# secrets / env
+.env
+.env.*
+!.env.example
+
+# auth state is per-machine/per-session and may contain live session cookies
+auth-state/*.json
+
+# test artifacts
+test-results.json
+reports/json/**/*.json
+reports/html/
+reports/excel/
+playwright-report/
+test-results/
+
+# logs
+*.log
+npm-debug.log*
